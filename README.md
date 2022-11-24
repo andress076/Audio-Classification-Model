@@ -18,6 +18,10 @@ Metadatos:
 Preprocesamiento:
 
 - Frame size: 512, 1024, 2048, 8192 (Valores mas habituales) 
-- Hop size: 256, 512, 1024, 2048, 4096 (Valores mas habituales)
-- Number of frames: ((samples - frame size) / hop size) + 1
+- Hop length: 256, 512, 1024, 2048, 4096 (Valores mas habituales)
+- Number of frames: ((samples - frame size) / hop length) + 1
 - Window: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos
+
+Espectrograma:
+
+Espectogram.shape = (x,y) --> x = (frame size / 2) + 1 , y = Number of frames
