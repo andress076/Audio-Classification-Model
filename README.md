@@ -22,6 +22,15 @@ Preprocesamiento:
 - Number of frames: ((samples - frame size) / hop length) + 1
 - Window: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos
 
-Espectrograma:
+Espectrograma: Es una matriz de tamaño m x n
 
-Espectogram.shape = (x,y) --> x = (frame size / 2) + 1 , y = Number of frames
+m = (frame size / 2) + 1
+n = number of frames
+
+Resumen de clasificador.ipnyb:
+
+1) Se guardan las rutas  y los nombres de los audios
+2) Se obtienen los metadatos de los audios
+3) Se escogen los parametros del preprocesamiento (frame size, hop length, window)
+4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
+5) Se escoge un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
