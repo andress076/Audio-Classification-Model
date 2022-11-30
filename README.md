@@ -1,9 +1,9 @@
 # Audio-Classification-Model
 
-Audios: Tenemos 2 Tipos de audios
+Audios: Hay un total de 198 audios, de los cuales hay 2 Tipos
 
-- Audio Normal
-- Audio Contaminado
+- Audio Normal: Hay 100
+- Audio Anomalo: Hay 98
 
 Metadatos:
 
