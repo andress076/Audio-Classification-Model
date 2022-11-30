@@ -25,6 +25,7 @@ Preprocesamiento:
 Espectrograma: Es una matriz de tamaño m x n
 
 m = (frame size / 2) + 1
+
 n = number of frames
 
 Resumen de clasificador.ipnyb:
