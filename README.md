@@ -1,6 +1,6 @@
 # Audio-Classification-Model
 
-Audios: Hay un total de 198 audios, de los cuales hay 2 Tipos
+Audios: Hay un total de 198 audios con una duración de 30 a 60 segundos, de los cuales hay 2 tipos
 
 - Audio Normal: Hay 100
 - Audio Anomalo: Hay 98
