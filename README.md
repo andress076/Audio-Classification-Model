@@ -1,5 +1,7 @@
 # Audio-Classification-Model
 
+  Modelo para clasificar distintos tipos de audio mediante el espectrograma.
+
 Audios: Hay un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
 - Audio Normal: Hay 100
