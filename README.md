@@ -34,4 +34,4 @@ Resumen de clasificador.ipnyb:
 2) Se obtienen los metadatos de los audios
 3) Se escogen los parametros del preprocesamiento (frame size, hop length, window)
 4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
-5) Se escoge un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
+5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
