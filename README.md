@@ -22,7 +22,9 @@ Preprocesamiento:
 - Number of frames: ((samples - frame size) / hop length) + 1
 - Window: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos
 
-Espectrograma: Es una matriz de tamaño m x n
+Espectrograma: El espectrograma permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
+
+Da como resultado una matriz de tamaño m x n
 
 m = (frame size / 2) + 1
 
