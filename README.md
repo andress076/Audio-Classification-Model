@@ -1,4 +1,3 @@
-![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208527348-fe9da476-4aa6-4006-8536-aae1dd232a3d.png)
 # Audio-Classification-Model
 
   Modelo para clasificar distintos tipos de audio mediante el espectrograma.
@@ -40,3 +39,5 @@ Resumen de clasificador.ipnyb:
 3) Se escogen los parametros del preprocesamiento (frame size, hop length, window)
 4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
 5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
+
+![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208527348-fe9da476-4aa6-4006-8536-aae1dd232a3d.png)
