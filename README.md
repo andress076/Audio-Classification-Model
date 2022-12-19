@@ -40,4 +40,5 @@ Resumen de clasificador.ipnyb:
 4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
 5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
 
-![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208527348-fe9da476-4aa6-4006-8536-aae1dd232a3d.png)
+![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
+
