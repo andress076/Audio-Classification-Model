@@ -1,3 +1,4 @@
+![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208527348-fe9da476-4aa6-4006-8536-aae1dd232a3d.png)
 # Audio-Classification-Model
 
   Modelo para clasificar distintos tipos de audio mediante el espectrograma.
