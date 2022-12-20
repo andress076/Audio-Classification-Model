@@ -1,6 +1,6 @@
 # Audio-Classification-Model
 
-Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio (ejemplos) mediante la creacion de modelos predictivos relacionados con la respectiva problematica.
+Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio (ejemplos) mediante la creacion de modelos predictivos relacionados con la respectiva problematica.
 
 En este caso se genero un modelo predictivo para clasificar distintos tipos de audio mediante el uso del espectrograma.
 
