@@ -19,12 +19,14 @@ Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (a
 
 En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension, estas torres por el tiempo y distintos factores generan un sonido caracteristico (Efecto corona).
 
-Lo que se hizo para resolver el problema fue generar un modelo predcitivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
+Lo que se hizo para resolver el problema fue generar un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
-Audios: Hay un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
+Se proporcionaron un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
 - Audio Normal: Hay 100
 - Audio Anomalo: Hay 98
+
+A continuacion se muestra la arquitectura de un modelo de machine learning de un proyecto de analisis de audio.
 
 ![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
 
