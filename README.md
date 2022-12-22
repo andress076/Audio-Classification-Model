@@ -1,5 +1,9 @@
 # Audio-Classification-Model
 
+¿Que es un audio o señal de audio?
+
+El audio consiste en la tensión eléctrica o magnética proporcional a un sonido, y éste se genera a través de transductores (Es decir, aquellos elementos que transforman una magnitud física en una señal eléctrica). Estos transductores pueden ser, por ejemplo, los micrófonos.
+
 Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
 
 En este caso los audios se obtuvieron de torres de alta tension, las cuales por el tiempo y distintos factores generan un sonido caracteristico, a partir de esto se genero un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
