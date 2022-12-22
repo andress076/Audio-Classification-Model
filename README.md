@@ -1,8 +1,8 @@
 # Audio-Classification-Model
 
-Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio (ejemplos) mediante la creacion de modelos predictivos relacionados con la respectiva problematica.
+Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio (ejemplos) mediante la creacion de modelos relacionados con la respectiva problematica.
 
-En este caso se genero un modelo predictivo para clasificar distintos tipos de audio mediante el uso del espectrograma.
+En este caso los audios se obtuvieron de torres de alta tension, las cuales por el tiempo y distintos factores generan un sonido caracteristico, a partir de esto se genero un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
 El espectrograma permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
 Cada eje de un espectrograma se visualiza de diferentes formas:
