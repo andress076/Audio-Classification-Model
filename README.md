@@ -35,8 +35,7 @@ Preprocesamiento:
 - Window: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos
 
 
-
-Da como resultado una matriz de tamaño m x n
+El espectragrama da como resultado una matriz de tamaño m x n
 
 m = (frame size / 2) + 1
 
