@@ -4,10 +4,6 @@
 
 El audio consiste en la tensión eléctrica o magnética proporcional a un sonido, y éste se genera a través de transductores (Es decir, aquellos elementos que transforman una magnitud física en una señal eléctrica). Estos transductores pueden ser, por ejemplo, los micrófonos.
 
-Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
-
-En este caso los audios se obtuvieron de torres de alta tension, las cuales por el tiempo y distintos factores generan un sonido caracteristico, a partir de esto se genero un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
-
 El espectrograma permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
 Cada eje de un espectrograma se visualiza de diferentes formas:
 
@@ -17,14 +13,19 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 
 ![espectrograma](https://user-images.githubusercontent.com/118764182/209146433-45407e7e-6b75-4e31-9a70-48414049e274.jpg)
 
+Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
 
-![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
+En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension, estas torres por el tiempo y distintos factores generan un sonido caracteristico (Efecto corona).
 
+Lo que se hizo para resolver el problema fue generar un modelo predcitivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
 Audios: Hay un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
 - Audio Normal: Hay 100
 - Audio Anomalo: Hay 98
+
+![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
+
 
 Metadatos:
 
