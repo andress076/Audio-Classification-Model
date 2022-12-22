@@ -12,6 +12,9 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 - El color que marque el espectrograma ayuda a identificar la intensidad del sonido.
 
 
+![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
+
+
 Audios: Hay un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
 - Audio Normal: Hay 100
@@ -49,5 +52,4 @@ Resumen de clasificador.ipnyb:
 4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
 5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
 
-![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
 
