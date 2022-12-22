@@ -12,6 +12,8 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 - El color que marque el espectrograma ayuda a identificar la intensidad del sonido.
 
 
+
+
 ![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
 
 
