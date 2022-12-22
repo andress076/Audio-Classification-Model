@@ -1,6 +1,6 @@
 # Audio-Classification-Model
 
-Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio (ejemplos) mediante la creacion de modelos relacionados con la respectiva problematica.
+Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
 
 En este caso los audios se obtuvieron de torres de alta tension, las cuales por el tiempo y distintos factores generan un sonido caracteristico, a partir de esto se genero un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
@@ -37,7 +37,6 @@ Preprocesamiento:
 - Number of frames: ((samples - frame size) / hop length) + 1
 - Window: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos
 
-
 El espectragrama da como resultado una matriz de tamaño m x n
 
 m = (frame size / 2) + 1
@@ -49,7 +48,7 @@ Resumen de clasificador.ipnyb:
 1) Se guardan las rutas  y los nombres de los audios
 2) Se obtienen los metadatos de los audios
 3) Se escogen los parametros del preprocesamiento (frame size, hop length, window)
-4) Se cargan los audios, se obtiene la stft, el espectrograma y se calcula la media de cada fila del espectrograma
+4) Se cargan los audios, se obtiene la Short-time Fourier transform (stft), el espectrograma y se calcula la media de cada fila del espectrograma
 5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
 
 
