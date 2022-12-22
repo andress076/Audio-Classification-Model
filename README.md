@@ -26,7 +26,7 @@ Se proporcionaron un total de 198 audios de formato wav con una duración de 30 
 - Audio Normal: Hay 100
 - Audio Anomalo: Hay 98
 
-A continuacion se muestra la arquitectura de un modelo de machine learning de un proyecto de analisis de audio.
+A continuacion se muestra la arquitectura del ciclo de vida de un modelo de machine learning de un proyecto de analisis de audio.
 
 ![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
 
