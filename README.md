@@ -4,7 +4,7 @@
 
 El audio consiste en la tensión eléctrica o magnética proporcional a un sonido, y éste se genera a través de transductores (Es decir, aquellos elementos que transforman una magnitud física en una señal eléctrica). Estos transductores pueden ser, por ejemplo, los micrófonos.
 
-Poner conector del uso del espectrograma.
+"Poner conector del uso del espectrograma"
 
 El espectrograma permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
 Cada eje de un espectrograma se visualiza de diferentes formas:
