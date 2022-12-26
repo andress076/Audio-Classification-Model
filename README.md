@@ -17,7 +17,9 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 
 Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
 
-En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension, estas torres por el tiempo y distintos factores generan un sonido caracteristico (Efecto corona).
+"Poner 2 a 3 ejemplos y describirlos un poco"
+
+En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension, estas torres por el tiempo y distintos factores generan un sonido caracteristico (Efecto corona). "Describir el efecto corona"
 
 Lo que se hizo para resolver el problema fue generar un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
@@ -30,8 +32,10 @@ A continuacion se muestra la arquitectura del ciclo de vida de un modelo de mach
 
 ![ACM GRAFICO](https://user-images.githubusercontent.com/118764182/208528333-e0eddadf-9b58-4ca0-be3c-265724144fea.png)
 
+"poner las etiquetas de los colores"
 
-Metadatos:
+
+Metadatos: "explicar un poco"
 
 - File name
 - Channels: Number of channels (1 for Mono, 2 for Stereo)
@@ -41,7 +45,7 @@ Metadatos:
 - Length: Duration in seconds
 - Intensity: The loudness in dBFS (db relative to the maximum possible loudness)
 
-Preprocesamiento:
+Preprocesamiento: "explicar un poco"
 
 - Frame size: 512, 1024, 2048, 8192 (Valores mas habituales) 
 - Hop length: 256, 512, 1024, 2048, 4096 (Valores mas habituales)
@@ -61,6 +65,8 @@ Resumen de clasificador.ipnyb:
 3) Se escogen los parametros del preprocesamiento (frame size, hop length, window)
 4) Se cargan los audios, se obtiene la Short-time Fourier transform (stft), el espectrograma y se calcula la media de cada fila del espectrograma
 5) Se utiliza un modelo de clasificacion en este caso (Multilayer Perceptron) y se obtienen los resultados
+
+"explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
 
 ![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
 
