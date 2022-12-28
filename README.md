@@ -22,9 +22,17 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 
 Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
 
-"Poner 2 a 3 ejemplos y describirlos un poco"
+Por ejemplo:
 
-En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension, estas torres por el tiempo y distintos factores generan un sonido caracteristico (Efecto corona). "Describir el efecto corona"
+- Separacion de fuentes
+- Reconocimiento automatico de voz
+- Clasificador de generos musicales
+
+En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension.
+
+Las torres de alta tension por el tiempo y distintos factores generan un sonido caracteristico llamado efecto corona. El efecto corona es un fenómeno que consiste en una descarga eléctrica debido a la ionización del fluido que circunda a un conductor energizado. El ruido provocado consiste en una zumbido constante tipo interferencia de radio provocado por el movimiento de los iones.
+
+Lo requerido era mediante el audio generado por una torre poder clasificar si iba a fallar o no.
 
 Lo que se hizo para resolver el problema fue generar un modelo predictivo mediante el uso del espectrograma para clasificar si una torre iba a fallar o no.
 
@@ -40,7 +48,7 @@ A continuacion se muestra la arquitectura del ciclo de vida de un modelo de mach
 "poner las etiquetas de los colores"
 
 
-Metadatos: "explicar un poco"
+## Metadatos: "explicar un poco"
 
 - File name
 - Channels: Number of channels (1 for Mono, 2 for Stereo)
@@ -50,7 +58,7 @@ Metadatos: "explicar un poco"
 - Length: Duration in seconds
 - Intensity: The loudness in dBFS (db relative to the maximum possible loudness)
 
-Preprocesamiento: "explicar un poco"
+## Preprocesamiento: "explicar un poco"
 
 - Frame size: 512, 1024, 2048, 8192 (Valores mas habituales) 
 - Hop length: 256, 512, 1024, 2048, 4096 (Valores mas habituales)
