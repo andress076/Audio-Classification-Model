@@ -4,9 +4,14 @@
 
 El audio consiste en la tensión eléctrica o magnética proporcional a un sonido, y éste se genera a través de transductores (Es decir, aquellos elementos que transforman una magnitud física en una señal eléctrica). Estos transductores pueden ser, por ejemplo, los micrófonos.
 
-"Poner conector del uso del espectrograma"
+Para poder utilizar los audios existen representaciones visuales como:
 
-El espectrograma permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
+- Forma de onda
+- Espectro
+- Espectrograma
+
+De estas 3 representaciones la mas completa es el espectrograma ya que permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
+
 Cada eje de un espectrograma se visualiza de diferentes formas:
 
 - El tiempo está representado por el eje horizontal.
