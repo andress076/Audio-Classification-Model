@@ -93,7 +93,7 @@ Las metricas escogidas son:
 
 Para el accuracy se obtuvo un valor de 100%
 
-Matriz de confusion
+La matriz de confusion es la siguiente
 
 ![matriz de confusion](https://user-images.githubusercontent.com/118764182/210012922-ab3ba759-ebd0-443b-99a7-0e7424c0c729.png)
 
