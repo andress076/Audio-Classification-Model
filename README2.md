@@ -39,8 +39,8 @@ Lo que se hizo para resolver el problema fue utilizar el modelo de clasificacion
 
 Se proporcionaron un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
-- Audio Normal: Hay 100
-- Audio Anomalo: Hay 98
+- Audio Normal: Hay 100, se le coloco la etiqueta 0
+- Audio Anomalo: Hay 98, se le coloco la etiqueta 1
 
 A continuacion se muestra la arquitectura del ciclo de vida de un modelo de machine learning de un proyecto de analisis de audio.
 
@@ -76,7 +76,23 @@ El numero de frames va a depender del numero de samples que posea el audio.
 
 ## Descripcion del modelo
 
+Gaussian Naive Bayes es un algoritmo de clasificación probabilística basado en la aplicación del teorema de Bayes con fuertes suposiciones de independencia. En el
+contexto de la clasificación, la independencia se refiere a la idea de que la presencia de un valor de una característica no influye en la presencia de otro (a 
+diferencia de la independencia en la teoría de la probabilidad). Naive se refiere al uso de la suposición de que las características de un objeto son independientes 
+entre sí.
 
+Las metricas escogidas son:
+
+- accuracy
+- confusion matrix
+
+## Resultados
+
+Para el accuracy se obtuvo un valor de 100%
+
+Matriz de confusion
+
+![matriz de confusion (1)](https://user-images.githubusercontent.com/118764182/210012844-b0cc2485-fea9-46f1-abc8-23caaa02d2a0.png)
 
 ## Resumen de clasificador.ipnyb
 
@@ -89,5 +105,5 @@ El numero de frames va a depender del numero de samples que posea el audio.
 m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
-9) Se utiliza el modelo de clasificacion gaussian naive bayes.
-10) Se obtiene la matriz de confusion.
+9) Se utiliza el modelo de clasificacion gaussian naive bayes
+10) Se obtienen los resultados de las metricas escogidas (accuracy, confusion matrix)
