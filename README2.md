@@ -35,7 +35,7 @@ Las torres de alta tension por el tiempo y distintos factores generan un sonido 
 
 Lo requerido era que mediante el audio generado por una torre poder clasificar si iba a fallar o no.
 
-Lo que se hizo para resolver el problema fue utilizar el modelo de clasificacion Multilayer Perceptron haciendo uso del espectrograma para clasificar si una torre iba a fallar o no.
+Lo que se hizo para resolver el problema fue utilizar el modelo de clasificacion gaussian naive bayes haciendo uso del espectrograma para clasificar si una torre iba a fallar o no.
 
 Se proporcionaron un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
@@ -76,32 +76,6 @@ El numero de frames va a depender del numero de samples que posea el audio.
 
 ## Descripcion del modelo
 
-Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales ("poner mas descripcion").
-
-Para el testeo del modelo se utilizo un 25% de los datos.
-
-Los hiperparametros son los siguientes:
-
-- Batch size = 25
-- Hidden units = 16
-- dropout = 0.3
-- epochs = 50
-
-
-![estructura red](https://user-images.githubusercontent.com/118764182/210003939-2d29d057-832c-4ea1-b53b-c91ac2468238.png)
-
-La funcion de perdida y la metrica utilizada fueron "binary cross entropy" y "accuracy" respectivamente.
-
-## Exactitud del modelo
-
-En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
-
-![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
-
-
-## Funcion de perdida
-
-![funcion de perdida](https://user-images.githubusercontent.com/118764182/209144055-e0eae499-5108-4e42-aefa-fb1ef0a04bdf.jpg)
 
 
 ## Resumen de clasificador.ipnyb
@@ -115,8 +89,5 @@ En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivament
 m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
-9) Se utiliza el modelo de clasificacion Multilayer Perceptron, escogiendo la metrica "accuracy" y la funcion de perdida "binary cross entropy".
-10) Se grafica la exactitud y la funcion de perdida del modelo
-11) Se obtiene la matriz de confusion.
-
-"explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
+9) Se utiliza el modelo de clasificacion gaussian naive bayes.
+10) Se obtiene la matriz de confusion.
