@@ -76,6 +76,23 @@ El numero de frames va a depender del numero de samples que posea el audio.
 
 ## Descripcion del modelo
 
+Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales ("poner mas descripcion").
+
+Para el testeo del modelo se utilizo un 25% de los datos.
+
+Los hiperparametros son los siguientes:
+
+- Batch size = 25
+- Hidden units = 16
+- dropout = 0.3
+- epochs = 50
+
+
+![estructura red](https://user-images.githubusercontent.com/118764182/210003939-2d29d057-832c-4ea1-b53b-c91ac2468238.png)
+
+La funcion de perdida y la metrica utilizada fueron "binary cross entropy" y "accuracy" respectivamente.
+
+
 ## Resumen de clasificador.ipnyb
 
 1) Se guardan las rutas y los nombres de los audios para poder extraer los metadatos y obtener los espectrogramas.
