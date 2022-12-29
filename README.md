@@ -81,7 +81,8 @@ El numero de frames va a depender del numero de samples que posea el audio.
 3) Se escogen los parametros del preprocesamiento (frame size = 1024, hop length = 512, window = Hann)
 4) Se cargan los audios
 5) Se calcula la Short-time Fourier transform (stft)
-6) Por medio de la stft se obtiene el espectrograma, el cual es una matriz de tamaño m x n donde: m = (frame size / 2) + 1 ; n = number of frames.
+6) Por medio de la stft se obtiene el espectrograma, el cual es una matriz de tamaño m x n donde: 
+m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
 9) Se utiliza el modelo de clasificacion Multilayer Perceptron, escogiendo la metrica "accuracy".
