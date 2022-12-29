@@ -74,6 +74,8 @@ Se escogieron los siguientes parametros:
 
 El numero de frames va a depender del numero de samples que posea el audio.
 
+## Descripcion del modelo
+
 ## Resumen de clasificador.ipnyb
 
 1) Se guardan las rutas y los nombres de los audios para poder extraer los metadatos y obtener los espectrogramas.
