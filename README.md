@@ -90,7 +90,9 @@ Los hiperparametros son los siguientes:
 
 ![estructura red](https://user-images.githubusercontent.com/118764182/210003939-2d29d057-832c-4ea1-b53b-c91ac2468238.png)
 
-La funcion de perdida y la metrica utilizada fueron "binary cross entropy" y "accuracy" respectivamente.
+Las metricas utilizadas fueron accuracy y la matriz de confusion.
+
+La funcion de perdida utilizada fue binary cross entropy.
 
 ## Exactitud del modelo
 
@@ -115,9 +117,8 @@ En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivament
 m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
-9) Se utiliza el modelo de clasificacion Multilayer Perceptron, escogiendo la metrica "accuracy" y la funcion de perdida "binary cross entropy".
-10) Se grafica la exactitud y la funcion de perdida del modelo
-11) Se obtiene la matriz de confusion.
+9) Se utiliza el modelo de clasificacion Multilayer Perceptron.
+10) Se grafica la exactitud, la matriz de confusion y la funcion de perdida del modelo.
 
 "explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
 
