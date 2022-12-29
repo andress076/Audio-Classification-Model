@@ -92,7 +92,8 @@ Para el accuracy se obtuvo un valor de 100%
 
 Matriz de confusion
 
-![matriz de confusion (1)](https://user-images.githubusercontent.com/118764182/210012844-b0cc2485-fea9-46f1-abc8-23caaa02d2a0.png)
+![matriz de confusion](https://user-images.githubusercontent.com/118764182/210012922-ab3ba759-ebd0-443b-99a7-0e7424c0c729.png)
+
 
 ## Resumen de clasificador.ipnyb
 
