@@ -93,7 +93,7 @@ m = (frame size / 2) + 1 ; n = number of frames.
 
 ## Exactitud del modelo
 
-En el entrenamiento y en el testeo se obtuvo como resultado 95,95% y 98% respectivamente.
+En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
 
 ![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
 
