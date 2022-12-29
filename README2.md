@@ -83,8 +83,11 @@ entre sí.
 
 Las metricas escogidas son:
 
-- accuracy
-- confusion matrix
+- accuracy: Es la fracción de predicciones que el modelo realizó correctamente
+- matriz de confusion: Es una herramienta que permite visualizar el desempeño del modelo, no permite ver cuantos aciertos y errores hemos obtenido.
+
+![MATRIZ-CONFUSION](https://user-images.githubusercontent.com/118764182/210014655-b6ad53ee-43c4-421a-8c3a-42d76447168c.png)
+
 
 ## Resultados
 
