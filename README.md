@@ -92,6 +92,17 @@ Los hiperparametros son los siguientes:
 
 La funcion de perdida y la metrica utilizada fueron "binary cross entropy" y "accuracy" respectivamente.
 
+## Exactitud del modelo
+
+En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
+
+![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
+
+
+## Funcion de perdida
+
+![funcion de perdida](https://user-images.githubusercontent.com/118764182/209144055-e0eae499-5108-4e42-aefa-fb1ef0a04bdf.jpg)
+
 
 ## Resumen de clasificador.ipnyb
 
@@ -109,17 +120,4 @@ m = (frame size / 2) + 1 ; n = number of frames.
 11) Se obtiene la matriz de confusion.
 
 "explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
-
-## Exactitud del modelo
-
-En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
-
-![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
-
-
-## Funcion de perdida
-
-![funcion de perdida](https://user-images.githubusercontent.com/118764182/209144055-e0eae499-5108-4e42-aefa-fb1ef0a04bdf.jpg)
-
-
 
