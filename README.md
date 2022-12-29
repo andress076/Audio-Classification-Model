@@ -25,9 +25,9 @@ Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (a
 
 Por ejemplo:
 
-- Separacion de fuentes
-- Reconocimiento automatico de voz
-- Clasificador de generos musicales
+- Separacion de fuentes: Separacion vocal de una fuente de entrada de audio.
+- Reconocimiento automatico de voz: Trancribir automáticamente audio en tiempo real o pregrabado a texto.
+- Clasificador de generos musicales: Reconocimiento y etiquetado automatico de generos musicales.
 
 En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension.
 
@@ -85,13 +85,20 @@ El numero de frames va a depender del numero de samples que posea el audio.
 m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
-9) Se utiliza el modelo de clasificacion Multilayer Perceptron, escogiendo la metrica "accuracy".
+9) Se utiliza el modelo de clasificacion Multilayer Perceptron, escogiendo la metrica "accuracy" y la funcion de perdida "binary cross entropy".
 10) Se grafica la exactitud y la funcion de perdida del modelo
 11) Se obtiene la matriz de confusion.
 
 "explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
 
+## Exactitud del modelo
+
+En el entrenamiento y en el testeo se obtuvo como resultado 95,95% y 98% respectivamente.
+
 ![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
+
+
+## Funcion de perdida
 
 ![funcion de perdida](https://user-images.githubusercontent.com/118764182/209144055-e0eae499-5108-4e42-aefa-fb1ef0a04bdf.jpg)
 
