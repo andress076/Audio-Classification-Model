@@ -120,5 +120,3 @@ m = (frame size / 2) + 1 ; n = number of frames.
 9) Se utiliza el modelo de clasificacion Multilayer Perceptron.
 10) Se grafica la exactitud, la matriz de confusion y la funcion de perdida del modelo.
 
-"explicar los graficos, tiempo de ejecucion, describir el modelo, cita del algoritmo"
-
