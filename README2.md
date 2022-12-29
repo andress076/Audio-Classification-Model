@@ -81,6 +81,8 @@ contexto de la clasificación, la independencia se refiere a la idea de que la p
 diferencia de la independencia en la teoría de la probabilidad). Naive se refiere al uso de la suposición de que las características de un objeto son independientes 
 entre sí.
 
+Para el entrenamiento del modelo se utilizo un 25% de los datos.
+
 Las metricas escogidas son:
 
 - accuracy: Es la fracción de predicciones que el modelo realizó correctamente
