@@ -96,14 +96,16 @@ La funcion de perdida utilizada fue binary cross entropy.
 
 ## Resultados
 
-### Exactitud del modelo
+### Exactitud (accuracy)
 
-En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
+En el entrenamiento y en el testeo se obtuvo como resultado 97.30% y 98% respectivamente.
 
 ![exactitud del modelo (1)](https://user-images.githubusercontent.com/118764182/210385823-cf5effbe-30dc-4846-bab9-7339b3c37a8f.jpg)
 
 
 ### Funcion de perdida
+
+En el entrenamiento y en el testeo se obtuvo como resultado 0.2297 y 0.4756 respectivamente.
 
 ![funcion de perdida (1)](https://user-images.githubusercontent.com/118764182/210385858-ad6f1a88-e5f1-45ec-9430-8dbac6d79de6.jpg)
 
@@ -124,5 +126,4 @@ m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
 9) Se utiliza el modelo de clasificacion Multilayer Perceptron.
-10) Se grafica la exactitud, la matriz de confusion y la funcion de perdida del modelo.
-
+10) Se grafica la exactitud (accuracy), la funcion de perdida y la matriz de confusion.
