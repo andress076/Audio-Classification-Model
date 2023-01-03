@@ -90,7 +90,13 @@ Los hiperparametros son los siguientes:
 
 ![estructura red](https://user-images.githubusercontent.com/118764182/210003939-2d29d057-832c-4ea1-b53b-c91ac2468238.png)
 
-Las metricas utilizadas fueron accuracy y la matriz de confusion.
+Las metricas escogidas son:
+
+- accuracy: Es la fracción de predicciones que el modelo realizó correctamente
+- matriz de confusion: Es una herramienta que permite visualizar el desempeño del modelo, no permite ver cuantos aciertos y errores hemos obtenido.
+
+![MATRIZ-CONFUSION](https://user-images.githubusercontent.com/118764182/210390351-65b02891-625d-41e4-aa29-e3c8917c7751.png)
+
 
 La funcion de perdida utilizada fue binary cross entropy.
 
