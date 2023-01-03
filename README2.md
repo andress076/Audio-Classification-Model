@@ -93,11 +93,11 @@ Las metricas escogidas son:
 
 ## Resultados
 
-Para el accuracy se obtuvo un valor de 100%
+Para el accuracy se obtuvo un valor de 98%
 
 La matriz de confusion es la siguiente
 
-![matriz de confusion](https://user-images.githubusercontent.com/118764182/210012922-ab3ba759-ebd0-443b-99a7-0e7424c0c729.png)
+![matriz de confusion (2)](https://user-images.githubusercontent.com/118764182/210389961-8874846c-ffca-45a3-94e4-cd899fe972d3.png)
 
 
 ## Resumen de clasificador.ipnyb
