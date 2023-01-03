@@ -78,7 +78,7 @@ El numero de frames va a depender del numero de samples que posea el audio.
 
 Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales ("poner mas descripcion").
 
-Para el testeo del modelo se utilizo un 25% de los datos.
+Para el entrenamiento del modelo se utilizo el 75% de los datos.
 
 Los hiperparametros son los siguientes:
 
