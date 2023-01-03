@@ -98,12 +98,16 @@ La funcion de perdida utilizada fue binary cross entropy.
 
 En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
 
-![exactitud del modelo](https://user-images.githubusercontent.com/118764182/209143928-696160f8-9b2b-4ac3-8ab3-b94d17ed530e.jpg)
+![exactitud del modelo (1)](https://user-images.githubusercontent.com/118764182/210385823-cf5effbe-30dc-4846-bab9-7339b3c37a8f.jpg)
 
 
 ## Funcion de perdida
 
-![funcion de perdida](https://user-images.githubusercontent.com/118764182/209144055-e0eae499-5108-4e42-aefa-fb1ef0a04bdf.jpg)
+![funcion de perdida (1)](https://user-images.githubusercontent.com/118764182/210385858-ad6f1a88-e5f1-45ec-9430-8dbac6d79de6.jpg)
+
+## Matriz de Confusion
+
+![matriz de confusion](https://user-images.githubusercontent.com/118764182/210385918-5f8d62f6-e4b7-4dec-9978-5f9f7fed323c.jpg)
 
 
 ## Resumen de clasificador.ipnyb
