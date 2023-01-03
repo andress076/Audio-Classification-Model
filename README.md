@@ -97,8 +97,12 @@ Las metricas escogidas son:
 
 ![MATRIZ-CONFUSION](https://user-images.githubusercontent.com/118764182/210390351-65b02891-625d-41e4-aa29-e3c8917c7751.png)
 
+La funcion de perdida, es una función que evalúa la desviación entre las predicciones realizadas por la red neuronal y los valores reales de las observaciones 
+utilizadas durante el aprendizaje. Cuanto menor es el resultado de esta función, más eficiente es la red neuronal.
 
-La funcion de perdida utilizada fue binary cross entropy.
+La funcion de perdida que se utilizo es la mas utilizada para problemas de clasificacion binaria, 'binary cross entropy', es el promedio negativo del logaritmo de las 
+probabilidades predichas corregidas. En otras palabras compara cada una de las probabilidades predichas con la salida de la clase real, que puede ser 0 o 1. Luego 
+calcula la puntuación que penaliza las probabilidades en función de la distancia desde el valor esperado. Eso significa qué tan cerca o lejos del valor real. 
 
 ## Resultados
 
