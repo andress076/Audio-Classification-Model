@@ -114,7 +114,7 @@ En el entrenamiento y en el testeo se obtuvo como resultado 0.2297 y 0.4756 resp
 ![matriz de confusion](https://user-images.githubusercontent.com/118764182/210385918-5f8d62f6-e4b7-4dec-9978-5f9f7fed323c.jpg)
 
 
-## Resumen de clasificador.ipnyb
+## Resumen de multilayer_perceptron.ipnyb
 
 1) Se guardan las rutas y los nombres de los audios para poder extraer los metadatos y obtener los espectrogramas.
 2) Se obtienen los metadatos de los audios.
