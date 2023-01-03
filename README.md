@@ -94,18 +94,20 @@ Las metricas utilizadas fueron accuracy y la matriz de confusion.
 
 La funcion de perdida utilizada fue binary cross entropy.
 
-## Exactitud del modelo
+## Resultados
+
+### Exactitud del modelo
 
 En el entrenamiento y en el testeo se obtuvo como resultado % y % respectivamente.
 
 ![exactitud del modelo (1)](https://user-images.githubusercontent.com/118764182/210385823-cf5effbe-30dc-4846-bab9-7339b3c37a8f.jpg)
 
 
-## Funcion de perdida
+### Funcion de perdida
 
 ![funcion de perdida (1)](https://user-images.githubusercontent.com/118764182/210385858-ad6f1a88-e5f1-45ec-9430-8dbac6d79de6.jpg)
 
-## Matriz de Confusion
+### Matriz de Confusion
 
 ![matriz de confusion](https://user-images.githubusercontent.com/118764182/210385918-5f8d62f6-e4b7-4dec-9978-5f9f7fed323c.jpg)
 
