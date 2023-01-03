@@ -39,8 +39,8 @@ Lo que se hizo para resolver el problema fue utilizar el modelo de clasificacion
 
 Se proporcionaron un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
-- Audio Normal: Hay 100
-- Audio Anomalo: Hay 98
+- Audio Normal: Hay 100, se le asigno la etiqueta 0
+- Audio Anomalo: Hay 98, se le asigno la etiqueta 1
 
 A continuacion se muestra la arquitectura del ciclo de vida de un modelo de machine learning de un proyecto de analisis de audio.
 
