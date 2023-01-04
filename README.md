@@ -77,7 +77,7 @@ El numero de frames va a depender del numero de samples que posea el audio.
 
 ## Descripcion del modelo
 
-Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales ("poner mas descripcion").
+Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales.
 
 Para el entrenamiento del modelo se utilizo el 75% de los datos.
 
@@ -94,7 +94,7 @@ Los hiperparametros son los siguientes:
 Las metricas escogidas son:
 
 - accuracy: Es la fracción de predicciones que el modelo realizó correctamente
-- matriz de confusion: Es una herramienta que permite visualizar el desempeño del modelo, no permite ver cuantos aciertos y errores hemos obtenido.
+- matriz de confusion: Es una herramienta que permite visualizar el desempeño del modelo, nos permite ver cuantos aciertos y errores hemos obtenido.
 
 ![MATRIZ-CONFUSION](https://user-images.githubusercontent.com/118764182/210390351-65b02891-625d-41e4-aa29-e3c8917c7751.png)
 
@@ -107,7 +107,7 @@ calcula la puntuación que penaliza las probabilidades en función de la distanc
 
 ## Resultados
 
-### Exactitud (accuracy)
+### Accuracy (exactitud)
 
 En el entrenamiento y en el testeo se obtuvo como resultado 97.30% y 98% respectivamente.
 
