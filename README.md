@@ -1,6 +1,6 @@
 # Audio-Classification-Model
 
-¿Que es un audio o señal de audio?
+¿Qué es un audio o señal de audio?
 
 El audio consiste en la tensión eléctrica o magnética proporcional a un sonido, y éste se genera a través de transductores (Es decir, aquellos elementos que transforman una magnitud física en una señal eléctrica). Estos transductores pueden ser, por ejemplo, los micrófonos.
 
@@ -10,7 +10,7 @@ Para poder utilizar los audios existen representaciones visuales como:
 - Espectro
 - Espectrograma
 
-De estas 3 representaciones la mas completa es el espectrograma ya que permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
+De estas 3 representaciones la más completa es el espectrograma ya que permite identificar las diferentes variaciones de la frecuencia y la intensidad del sonido a lo largo de un periodo de tiempo.
 
 Cada eje de un espectrograma se visualiza de diferentes formas:
 
@@ -21,35 +21,35 @@ Cada eje de un espectrograma se visualiza de diferentes formas:
 ![espectrograma](https://user-images.githubusercontent.com/118764182/209146433-45407e7e-6b75-4e31-9a70-48414049e274.jpg)
 
 
-Dado que en la actualidad se puede grabar,obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionados con el audio mediante la creacion de modelos relacionados con la respectiva problematica.
+Dado que en la actualidad se puede grabar, obtener audio de todo tipo de cosas (animales, maquinaria, personas, etc.) de manera "sencilla" y almacenar en gran cantidad, se pueden tratar distintos problemas, ideas relacionadas con el audio mediante la creación de modelos relacionados con la respectiva problemática.
 
 Por ejemplo:
 
-- Separacion de fuentes: Separacion vocal de una fuente de entrada de audio.
-- Reconocimiento automatico de voz: Trancribir automáticamente audio en tiempo real o pregrabado a texto.
-- Clasificador de generos musicales: Reconocimiento y etiquetado automatico de generos musicales.
+- Separación de fuentes: Separación vocal de una fuente de entrada de audio.
+- Reconocimiento automático de voz: Transcribir automáticamente audio en tiempo real o pregrabado a texto.
+- Clasificador de géneros musicales: Reconocimiento y etiquetado automático de géneros musicales.
 
-En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tension.
+En el siguiente ejercicio vamos a abordar el problema de un cliente relacionado con el monitoreo de torres de alta tensión.
 
-Las torres de alta tension por el tiempo y distintos factores generan un sonido caracteristico llamado efecto corona. El efecto corona es un fenómeno que consiste en una descarga eléctrica debido a la ionización del fluido que circunda a un conductor energizado. El ruido provocado consiste en una zumbido constante tipo interferencia de radio provocado por el movimiento de los iones.
+Las torres de alta tensión por el tiempo y distintos factores generan un sonido característico llamado efecto corona. El efecto corona es un fenómeno que consiste en una descarga eléctrica debido a la ionización del fluido que circunda a un conductor energizado. El ruido provocado consiste en un zumbido constante tipo interferencia de radio provocado por el movimiento de los iones.
 
 Lo requerido era que mediante el audio generado por una torre poder clasificar si iba a fallar o no.
 
-Lo que se hizo para resolver el problema fue utilizar el modelo de clasificacion Multilayer Perceptron haciendo uso del espectrograma para clasificar si una torre iba a fallar o no.
+Lo que se hizo para resolver el problema fue utilizar el modelo de clasificación Multilayer Perceptron haciendo uso del espectrograma para clasificar si una torre iba a fallar o no.
 
 Se proporcionaron un total de 198 audios de formato wav con una duración de 30 a 60 segundos y sample rate de 44100 Hz, de los cuales hay 2 tipos
 
-- Audio Normal: Hay 100, se le asigno la etiqueta 0
-- Audio Anomalo: Hay 98, se le asigno la etiqueta 1
+- Audio Normal: Se le asigno la etiqueta 0
+- Audio Anomalo: Se le asigno la etiqueta 1
 
-A continuacion se muestra la arquitectura del ciclo de vida de un modelo de machine learning de un proyecto de analisis de audio.
+A continuación se muestra la arquitectura del ciclo de vida de un modelo de machine learning de un proyecto de análisis de audio.
 
 ![Grafico de flujo](https://user-images.githubusercontent.com/118764182/209965842-d5ff8cd9-f430-49a2-8bbb-762a96e865cf.png)
 
 
 ## Metadatos
 
-Caracteristicas genericas que se extrajeron a los audios proporcionados
+Características genéricas que se extrajeron a los audios proporcionados
 
 - File name
 - Channels: Number of channels (1 for Mono, 2 for Stereo)
@@ -62,24 +62,24 @@ Caracteristicas genericas que se extrajeron a los audios proporcionados
 
 ## Preprocesamiento
 
-- Frame size: Los valores mas habituales son: 512, 1024, 2048, 8192.
-- Hop length: Los valores mas habituales son: 256, 512, 1024, 2048, 4096.
-- Number of frames: El numero de frames es igual a lo siguiente: ((samples - frame size) / hop length) + 1
+- Frame size: Los valores más habituales son: 512, 1024, 2048, 8192.
+- Hop length: Los valores más habituales son: 256, 512, 1024, 2048, 4096.
+- Number of frames: El número de frames es igual a lo siguiente: ((samples - frame size) / hop length) + 1
 - Window: Existen varias funciones de ventana como: Hann, Hamming, flattop, boxcar, triang, entre otras. Hann funciona bien el 95% de los casos.
 
-Se escogieron los siguientes parametros:
+Se escogieron los siguientes parámetros:
 
 - Frame size = 1024
 - Hop lenght = 512
 - Window = Hann
 
-El numero de frames va a depender del numero de samples que posea el audio.
+El número de frames va a depender del número de samples que posea el audio.
 
 ## Descripcion del modelo
 
 Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales.
 
-Para el entrenamiento del modelo se utilizo el 75% de los datos.
+Para el entrenamiento del modelo se utilizó el 75% de los datos.
 
 Los hiperparametros son los siguientes:
 
@@ -91,18 +91,18 @@ Los hiperparametros son los siguientes:
 
 ![estructura red](https://user-images.githubusercontent.com/118764182/210003939-2d29d057-832c-4ea1-b53b-c91ac2468238.png)
 
-Las metricas escogidas son:
+Las métricas escogidas son:
 
 - accuracy: Es la fracción de predicciones que el modelo realizó correctamente
-- matriz de confusion: Es una herramienta que permite visualizar el desempeño del modelo, nos permite ver cuantos aciertos y errores hemos obtenido.
+- matriz de confusión: Es una herramienta que permite visualizar el desempeño del modelo, nos permite ver cuántos aciertos y errores hemos obtenido.
 
 ![MATRIZ-CONFUSION](https://user-images.githubusercontent.com/118764182/210390351-65b02891-625d-41e4-aa29-e3c8917c7751.png)
 
-La funcion de perdida, es una función que evalúa la desviación entre las predicciones realizadas por la red neuronal y los valores reales de las observaciones 
+La función de perdida, es una función que evalúa la desviación entre las predicciones realizadas por la red neuronal y los valores reales de las observaciones 
 utilizadas durante el aprendizaje. Cuanto menor es el resultado de esta función, más eficiente es la red neuronal.
 
-La funcion de perdida que se utilizo es la mas utilizada para problemas de clasificacion binaria, 'binary cross entropy', es el promedio negativo del logaritmo de las 
-probabilidades predichas corregidas. En otras palabras compara cada una de las probabilidades predichas con la salida de la clase real, que puede ser 0 o 1. Luego 
+La función de perdida que se utilizo es la más utilizada para problemas de clasificación binaria, 'binary cross entropy', es el promedio negativo del logaritmo de las 
+probabilidades predichas corregidas. En otras palabras, compara cada una de las probabilidades predichas con la salida de la clase real, que puede ser 0 o 1. Luego 
 calcula la puntuación que penaliza las probabilidades en función de la distancia desde el valor esperado. Eso significa qué tan cerca o lejos del valor real. 
 
 ## Resultados
@@ -114,13 +114,13 @@ En el entrenamiento y en el testeo se obtuvo como resultado 97.30% y 98% respect
 ![exactitud del modelo (1)](https://user-images.githubusercontent.com/118764182/210385823-cf5effbe-30dc-4846-bab9-7339b3c37a8f.jpg)
 
 
-### Funcion de perdida
+### Función de perdida
 
 En el entrenamiento y en el testeo se obtuvo como resultado 0.2297 y 0.4756 respectivamente.
 
 ![funcion de perdida (1)](https://user-images.githubusercontent.com/118764182/210385858-ad6f1a88-e5f1-45ec-9430-8dbac6d79de6.jpg)
 
-### Matriz de Confusion
+### Matriz de Confusión
 
 ![matriz de confusion](https://user-images.githubusercontent.com/118764182/210385918-5f8d62f6-e4b7-4dec-9978-5f9f7fed323c.jpg)
 
@@ -129,12 +129,12 @@ En el entrenamiento y en el testeo se obtuvo como resultado 0.2297 y 0.4756 resp
 
 1) Se guardan las rutas y los nombres de los audios para poder extraer los metadatos y obtener los espectrogramas.
 2) Se obtienen los metadatos de los audios.
-3) Se escogen los parametros del preprocesamiento (frame size = 1024, hop length = 512, window = Hann)
+3) Se escogen los parámetros del preprocesamiento (frame size = 1024, hop length = 512, window = Hann)
 4) Se cargan los audios
 5) Se calcula la Short-time Fourier transform (stft)
 6) Por medio de la stft se obtiene el espectrograma, el cual es una matriz de tamaño m x n donde: 
 m = (frame size / 2) + 1 ; n = number of frames.
 7) Se calcula la media de cada fila del espectrograma y se guarda como "espectrograma scaled", la cual se utiliza para entrenar el modelo.
 8) Se dividen los datos en entrenamiento y testeo, para el testeo se utiliza un 25%. 
-9) Se utiliza el modelo de clasificacion Multilayer Perceptron.
-10) Se grafica la exactitud (accuracy), la funcion de perdida y la matriz de confusion.
+9) Se utiliza el modelo de clasificación Multilayer Perceptron.
+10) Se grafica la exactitud (accuracy), la función de perdida y la matriz de confusión.
