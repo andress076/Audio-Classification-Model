@@ -55,7 +55,8 @@ Caracteristicas genericas que se extrajeron a los audios proporcionados
 - Channels: Number of channels (1 for Mono, 2 for Stereo)
 - Sample width: Number of bytes in each sample (1 for 8 bit, 2 for 16 bit, 4 for 32 bit)
 - Frame rate/Sample rate: Number of samples per second. Common values are 44100, 48000, 22050, 24000, 12000
-- Frame width: Number of bytes for each frame. A frame contains a sample for each channel. frame width = channels * sample width
+- Frame width: Number of bytes for each frame. A frame contains a sample for each channel. 
+  frame width = channels * sample width
 - Length: Duration in seconds
 - Intensity: The loudness in dBFS (db relative to the maximum possible loudness)
 
