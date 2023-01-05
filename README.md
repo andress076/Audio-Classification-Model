@@ -77,7 +77,9 @@ El número de frames va a depender del número de samples que posea el audio.
 
 ## Descripcion del modelo
 
-Multilayer Perceptron es una red neuronal que aprende la relación entre datos lineales y no lineales.
+Multilayer Perceptron es una red neuronal feedforward , lo que significa que los datos se transmiten desde la capa de entrada a la capa de salida en la dirección de avance. 
+
+Además aprende la relación entre datos lineales y no lineales.
 
 Para el entrenamiento del modelo se utilizó el 75% de los datos.
 
