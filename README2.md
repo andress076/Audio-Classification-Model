@@ -99,7 +99,7 @@ La matriz de confusión es la siguiente
 ![matriz de confusion (2)](https://user-images.githubusercontent.com/118764182/210389961-8874846c-ffca-45a3-94e4-cd899fe972d3.png)
 
 
-## Resumen de clasificador.ipnyb
+## Resumen de naivebayes.ipnyb
 
 1) Se guardan las rutas y los nombres de los audios para poder extraer los metadatos y obtener los espectrogramas.
 2) Se obtienen los metadatos de los audios.
