@@ -58,6 +58,7 @@ Características genéricas que se extrajeron a los audios proporcionados
 - Frame width: Number of bytes for each frame. A frame contains a sample for each channel. 
   frame width = channels * sample width
 - Length: Duration in seconds
+- Frame count: number of frames in milliseconds
 - Intensity: The loudness in dBFS (db relative to the maximum possible loudness)
 
 ## Preprocesamiento
